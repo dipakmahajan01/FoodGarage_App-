@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            Support App - Chat with our support team
+        </title>
+        <link rel="stylesheet" href="chatapp.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+        <script src="../javascripts/lib/jquery.js"></script>
+        <script src="chatapp.js"></script>
+
+    </head>
+    <body>
+        Support app - 
+        <div class="chatContainer">
+            <div class="msgBlock"></div>
+            <div class="btnBlock">
+                <input type="text" id="umsg">
+                <input type="button" value="Send" onclick="sendUserMsg()">
+            </div>
+        </div>
+    </body>
+</html>
